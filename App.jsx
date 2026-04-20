@@ -8,15 +8,14 @@ import { ThemeProvider } from 'contexts/themeContext';
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <NavigationContainer>
+    <NavigationContainer>
+      <ThemeProvider>
         <StackNavigation />
         {/* <ToptabNavigation /> */}
         {/* <BottomTabNavigation /> */}
         {/* <DrawerNavigation /> */}
-      </NavigationContainer>
-      ;
-    </ThemeProvider>
+      </ThemeProvider>
+    </NavigationContainer>
   );
 }
 
