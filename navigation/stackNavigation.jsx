@@ -7,6 +7,8 @@ import HomeScreen from 'screens/home';
 import AboutScreen from 'screens/about';
 import UserList from 'screens/Users';
 import UserDetails from 'screens/UserDetails';
+import Buttons from 'screens/buttons';
+import Profile from 'screens/profile';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +27,8 @@ const StackNavigation = () => {
         animation: 'slide_from_right',
       }}>
       <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
+      <Stack.Screen name="btnscreens" component={Buttons}></Stack.Screen>
+      <Stack.Screen name="profile" component={Profile}></Stack.Screen>
       <Stack.Screen
         name="About"
         component={AboutScreen}

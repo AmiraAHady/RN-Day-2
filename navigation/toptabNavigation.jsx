@@ -21,8 +21,8 @@ const ToptabNavigation = () => {
       <Tab.Screen name="Home" component={HomeScreen}></Tab.Screen>
       <Tab.Screen name="About" component={AboutScreen}></Tab.Screen>
       <Tab.Screen name="Users" component={UserStack} ></Tab.Screen>
-      {/* <Tab.Screen name="Users" component={UserList}></Tab.Screen> */}
-      {/* <Tab.Screen
+      {/* <Tab.Screen name="Users" component={UserList}></Tab.Screen>
+      <Tab.Screen
         name="userDetails"
         component={UserDetails}></Tab.Screen> */}
     </Tab.Navigator>

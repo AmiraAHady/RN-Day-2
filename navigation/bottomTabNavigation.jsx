@@ -35,14 +35,14 @@ const BottomTabNavigation = () => {
             />
           ),
         }}></Tab.Screen>
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Users"
         component={UserStack}
         options={{
           tabBarIcon: ({ color, size }) => (
             <SimpleLineIcons name="user" size={size} color={color} />
           ),
-        }}></Tab.Screen>
+        }}></Tab.Screen> */}
     </Tab.Navigator>
   );
 };
